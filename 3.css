@@ -1,0 +1,30 @@
+/* span{
+    display: block;
+}
+div{
+    display: inline;
+} */
+.container{
+    border: 1px solid black;
+    height: 350px;
+    width: 600px;
+    margin: auto;
+    padding: 5px;
+}
+.box{
+    display: inline-block;
+    border: 1px solid black;
+    height: 250px;
+    width: 150px;
+    text-align: center;
+    margin-left: 25px;
+}
+#box1{
+    background-color: goldenrod;
+}
+#box2{
+    background-color: brown;
+}
+#box3{
+    background-color: darkturquoise;
+}
