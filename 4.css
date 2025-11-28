@@ -4,10 +4,17 @@
     width: 700px;
     margin: auto;
     padding: 8px;
-    background-color: rgb(226, 32, 251);
+    background-color: rgba(250, 118, 230, 0.673);
+    margin-bottom: 15px;
 }
 img{
     height: 200px;
     float: left;
     margin-right: 10px;
+}
+footer{
+    clear: both;
+    background-color: gainsboro;
+    text-align: center;
+    margin-top: 2px;
 }
