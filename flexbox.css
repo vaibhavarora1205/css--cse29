@@ -1,0 +1,27 @@
+.container{
+    height: 500px;
+    width: 1000px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 1px solid white;
+    text-align: center;
+    align-content: center;
+    flex-grow: 1;
+    
+}
+.item2{
+    order: -1;
+    flex-grow: 2;
+    align-self: flex-end;
+}
